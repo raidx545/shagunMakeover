@@ -91,7 +91,7 @@ const Hero = () => {
               Explore Services
             </a>
             <a
-              href="https://wa.me/919999999999?text=i%20want%20to%20join%20this%20academy"
+              href="https://wa.me/917078525809?text=i%20want%20to%20join%20this%20academy"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-primary text-foreground font-body font-semibold rounded-full hover:bg-primary/10 transition-all duration-300"
@@ -139,7 +139,7 @@ const Hero = () => {
       <motion.div
         animate={{ y: [0, -10, 0] }}
         transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10"
+        className="absolute inset-x-0 bottom-4 sm:bottom-10 z-10 flex justify-center"
       >
         <div className="flex flex-col items-center gap-2 text-muted-foreground">
           <span className="font-body text-sm">Scroll to explore</span>

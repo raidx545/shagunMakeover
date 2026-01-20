@@ -98,7 +98,7 @@ const Services = () => {
                 </div>
 
                 <a
-                  href={`https://wa.me/919999999999?text=Hi, I'm interested in ${encodeURIComponent(service.title)}. Please share more details.`}
+                  href={`https://wa.me/917078525809?text=Hi, I'm interested in ${encodeURIComponent(service.title)}. Please share more details.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center font-body text-sm font-semibold text-primary hover:text-gold-dark transition-colors group/link"

@@ -67,7 +67,7 @@ const Navbar = () => {
               )
             ))}
             <a
-              href="https://wa.me/919999999999"
+              href="https://wa.me/917078525809"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2.5 bg-gradient-gold text-primary-foreground font-body text-sm font-semibold rounded-full hover:shadow-gold transition-all duration-300 hover:scale-105"
@@ -124,7 +124,7 @@ const Navbar = () => {
                 )
               ))}
               <a
-                href="https://wa.me/919999999999"
+                href="https://wa.me/917078525809"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 px-6 py-3 bg-gradient-gold text-primary-foreground font-body text-sm font-semibold rounded-full text-center hover:shadow-gold transition-all duration-300"

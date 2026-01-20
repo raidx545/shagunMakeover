@@ -93,7 +93,7 @@ const LocationMap = () => {
                     Contact Us
                   </h4>
                   <p className="font-montserrat text-brown/70 text-sm">
-                    +91 99999 99999<br />
+                    +91 70785 25809<br />
                     shagunmakeover@email.com
                   </p>
                 </div>

@@ -127,7 +127,7 @@ const Academy = () => {
                   {course.price}
                 </p>
                 <a
-                  href={`https://wa.me/919999999999?text=Hi, I'm interested in the ${encodeURIComponent(course.title)}. Please share more details.`}
+                  href={`https://wa.me/917078525809?text=Hi, I'm interested in the ${encodeURIComponent(course.title)}. Please share more details.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`inline-flex items-center justify-center w-full px-6 py-3 font-body font-semibold rounded-full transition-all duration-300 ${
@@ -160,7 +160,7 @@ const Academy = () => {
             and beauty enthusiasts. Learn at your own pace with lifetime access.
           </p>
           <a
-            href="https://wa.me/919999999999?text=Hi, I'm interested in your Online Makeup Courses. Please share more details."
+            href="https://wa.me/917078525809?text=Hi, I'm interested in your Online Makeup Courses. Please share more details."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-4 bg-background text-foreground font-body font-semibold rounded-full hover:shadow-elegant transition-all duration-300 hover:scale-105"

@@ -50,7 +50,7 @@ const Contact = () => {
                     Phone
                   </h4>
                   <p className="font-body text-muted-foreground">
-                    +91 98765 43210
+                    +91 70785 25809
                   </p>
                 </div>
               </div>

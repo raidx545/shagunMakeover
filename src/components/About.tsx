@@ -83,7 +83,7 @@ const About = () => {
             </div>
 
             <a
-              href="https://wa.me/919999999999?text=Hey%20Mam%20I%20Want%20to%20Join%20This%20Academy"
+              href="https://wa.me/917078525809?text=Hey%20Mam%20I%20Want%20to%20Join%20This%20Academy"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-gradient-gold text-primary-foreground font-body font-semibold rounded-full hover:shadow-gold transition-all duration-300 hover:scale-105"

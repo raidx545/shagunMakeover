@@ -192,7 +192,7 @@ const Gallery = () => {
               Book your bridal makeup session today and let us make your special day even more memorable.
             </p>
             <a
-              href="https://wa.me/919999999999"
+              href="https://wa.me/917078525809"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-gold text-white font-montserrat font-semibold rounded-full hover:shadow-gold transition-all duration-300 hover:scale-105"
