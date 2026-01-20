@@ -179,12 +179,12 @@ const AboutPage = () => {
               Ready to book your bridal makeup session? Reach out and let's discuss your dream look.
             </p>
             <a
-              href="https://wa.me/919999999999"
+              href="https://wa.me/917078525809"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-gold text-white font-montserrat font-semibold rounded-full hover:shadow-gold transition-all duration-300 hover:scale-105"
             >
-              Book on WhatsApp
+              Book a Consultation
             </a>
           </motion.div>
         </div>
