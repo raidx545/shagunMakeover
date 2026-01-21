@@ -9,43 +9,16 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import bridalMakeup from "@/assets/bridal-makeup.jpg";
-import airbrushMakeup from "@/assets/airbrush-makeup.jpg";
-import engagementMakeup from "@/assets/engagement-makeup.jpg";
-import heroImage from "@/assets/hero-bridal.jpg";
 
-const galleryImages = [
-  {
-    id: 1,
-    src: bridalMakeup,
-    alt: "Bridal Makeup Look",
-    category: "Bridal",
-  },
-  {
-    id: 2,
-    src: airbrushMakeup,
-    alt: "Airbrush Makeup",
-    category: "Airbrush",
-  },
-  {
-    id: 3,
-    src: engagementMakeup,
-    alt: "Engagement Makeup",
-    category: "Engagement",
-  },
-  {
-    id: 4,
-    src: heroImage,
-    alt: "Bridal Beauty",
-    category: "Bridal",
-  },
-  {
-    id: 5,
-    src: bridalMakeup,
-    alt: "Wedding Day Glam",
-    category: "Bridal",
-  },
-];
+const galleryImages = Array.from({ length: 19 }, (_, index) => {
+  const id = index + 1;
+  return {
+    id,
+    src: `/img-${id}.jpg`,
+    alt: `Gallery Image ${id}`,
+    category: "Gallery",
+  };
+});
 
 const Gallery = () => {
   return (

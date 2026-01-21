@@ -1,21 +1,46 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
-import heroImage1 from "@/assets/hero-bridal.jpg";
-import heroImage2 from "@/assets/bridal-makeup.jpg";
-import heroImage3 from "@/assets/engagement-makeup.jpg";
-import heroImage4 from "@/assets/airbrush-makeup.jpg";
+
+import desktopImage1 from "@/assets/image-1.png";
+import desktopImage2 from "@/assets/image-2.png";
+import desktopImage3 from "@/assets/image-3.png";
+import desktopImage4 from "@/assets/image-4.png";
+import mobileImage1 from "@/assets/img-1.jpg";
+import mobileImage2 from "@/assets/img-2.jpg";
+import mobileImage3 from "@/assets/img-3.jpg";
+import mobileImage4 from "@/assets/img-4.jpg";
 
 const Hero = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 640px)");
+
+    const sync = () => setIsMobile(mediaQuery.matches);
+    sync();
+
+    mediaQuery.addEventListener("change", sync);
+    return () => mediaQuery.removeEventListener("change", sync);
+  }, []);
+
   const images = useMemo(() => {
-    const base = [heroImage1, heroImage2, heroImage3, heroImage4];
+    const base = isMobile
+      ? [mobileImage1, mobileImage2, mobileImage3, mobileImage4]
+      : [desktopImage1, desktopImage2, desktopImage3, desktopImage4];
+
     for (let i = base.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [base[i], base[j]] = [base[j], base[i]];
     }
+
     return base;
-  }, []);
+  }, [isMobile]);
 
   const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    setActiveIndex(0);
+  }, [isMobile]);
 
   useEffect(() => {
     const intervalId = window.setInterval(() => {
