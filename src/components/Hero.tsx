@@ -1,10 +1,10 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 
-import desktopImage1 from "@/assets/image-1.png";
-import desktopImage2 from "@/assets/image-2.png";
-import desktopImage3 from "@/assets/image-3.png";
-import desktopImage4 from "@/assets/image-4.png";
+import desktopImage1 from "@/assets/image-1.jpg";
+import desktopImage2 from "@/assets/image-2.jpg";
+import desktopImage3 from "@/assets/image-3.jpg";
+import desktopImage4 from "@/assets/image-4.jpg";
 import mobileImage1 from "@/assets/img-1.jpg";
 import mobileImage2 from "@/assets/img-2.jpg";
 import mobileImage3 from "@/assets/img-3.jpg";
