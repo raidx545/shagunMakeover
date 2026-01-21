@@ -79,16 +79,6 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="max-w-2xl">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-          >
-            <span className="inline-block px-4 py-2 bg-secondary/80 backdrop-blur-sm rounded-full font-body text-sm font-medium text-brown-light mb-6">
-              ✨ Premium Bridal Makeup Studio
-            </span>
-          </motion.div>
-
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}

@@ -32,9 +32,12 @@ const Navbar = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
+          <Link to="/" className="flex flex-col leading-none">
             <span className="font-heading text-2xl md:text-3xl font-semibold text-gradient-gold">
               Shagun Makeover
+            </span>
+            <span className="font-body text-xs md:text-sm text-brown-light/70 mt-1">
+              Premium Bridal Makeup Studio
             </span>
           </Link>
 
