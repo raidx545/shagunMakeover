@@ -19,8 +19,13 @@ const Hero = () => {
     const sync = () => setIsMobile(mediaQuery.matches);
     sync();
 
-    mediaQuery.addEventListener("change", sync);
-    return () => mediaQuery.removeEventListener("change", sync);
+    if (typeof mediaQuery.addEventListener === "function") {
+      mediaQuery.addEventListener("change", sync);
+      return () => mediaQuery.removeEventListener("change", sync);
+    }
+
+    mediaQuery.addListener(sync);
+    return () => mediaQuery.removeListener(sync);
   }, []);
 
   const images = useMemo(() => {
@@ -60,6 +65,8 @@ const Hero = () => {
             src={images[activeIndex]}
             alt="Professional bridal makeup transformation"
             className="w-full h-full object-cover object-center"
+            loading="eager"
+            decoding="async"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
